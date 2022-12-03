@@ -9,12 +9,12 @@ export const Card = ({ product, addCart, currentSale }) => {
   }
 
   return (
-    <li>
+    <li className={styles.productsCard}>
       <div className={styles.divImg}>
         <img src={product.img} alt="" />
       </div>
       <div className={styles.divInfo}>
-        <h2 className={`title2 ${styles.productTitle}`}>{product.name}</h2>
+        <h2 className={`title3 ${styles.productTitle}`}>{product.name}</h2>
         <p className={`caption ${styles.productCategory}`}>
           {product.category}
         </p>

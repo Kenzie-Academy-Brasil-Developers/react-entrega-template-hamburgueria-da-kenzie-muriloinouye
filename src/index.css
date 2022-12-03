@@ -22,3 +22,7 @@ code {
 button {
   cursor: pointer;
 }
+
+.App-main {
+  display: flex;
+}

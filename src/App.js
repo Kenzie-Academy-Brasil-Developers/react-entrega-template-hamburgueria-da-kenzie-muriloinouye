@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Cart } from "./components/Cart";
 import { Header } from "./components/Header";
 import { ListProducts } from "./components/ProductList";
 
@@ -33,13 +34,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header inputFilter={inputFilter} filter={filter} />
-        <ListProducts
-          filteredProducts={filteredProducts}
-          filter={filter}
-          setFilter={setFilter}
-          addCart={addCart}
-          currentSale={currentSale}
-        />
+        <main className="App-main container">
+          <ListProducts
+            filteredProducts={filteredProducts}
+            filter={filter}
+            setFilter={setFilter}
+            addCart={addCart}
+            currentSale={currentSale}
+          />
+          <Cart currentSale={currentSale} />
+        </main>
       </header>
     </div>
   );

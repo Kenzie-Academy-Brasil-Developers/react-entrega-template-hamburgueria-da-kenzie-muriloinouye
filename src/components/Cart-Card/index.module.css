@@ -1,0 +1,48 @@
+.cartCard {
+  width: 343px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+}
+
+.productDiv {
+  width: 343px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+}
+
+.productDiv > img {
+  height: 70px;
+  width: 70px;
+  background-color: var(--grey-25);
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.divInfo {
+  margin-left: 10px;
+  max-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productName {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.productCategory {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.removeButton {
+  margin-top: -15px;
+  border: none;
+  background: none;
+  font-weight: 600;
+}
