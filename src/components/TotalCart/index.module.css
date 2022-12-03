@@ -1,0 +1,22 @@
+.totalDiv {
+  height: 122px;
+  width: 100%;
+}
+
+.reduceDiv {
+  width: 100%;
+  margin: 16px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.removeButton {
+  width: 100%;
+  height: 60px;
+
+  border: none;
+  border-radius: 8px;
+  background-color: var(--grey-25);
+}
