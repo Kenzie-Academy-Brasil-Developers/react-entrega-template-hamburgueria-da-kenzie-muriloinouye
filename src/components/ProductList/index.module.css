@@ -1,0 +1,32 @@
+.filterDiv {
+  width: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resetFilter {
+  height: 40px;
+  padding: 0 20px;
+
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+}
+
+.listProductsContainer {
+  padding-left: -40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+ul {
+  width: 940px;
+  margin-top: 40px;
+  padding-inline-start: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}

@@ -1,0 +1,19 @@
+.headerBackground {
+  width: 100%;
+  background-color: var(--grey-0);
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.labelSearch {
+  width: 365px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
