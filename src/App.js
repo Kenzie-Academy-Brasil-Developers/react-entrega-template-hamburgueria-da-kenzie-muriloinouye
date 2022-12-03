@@ -28,8 +28,6 @@ function App() {
     setCurrentSale([...currentSale, obj]);
   }
 
-  console.log(products, currentSale);
-
   return (
     <div className="App">
       <header className="App-header">
@@ -42,7 +40,7 @@ function App() {
             addCart={addCart}
             currentSale={currentSale}
           />
-          <Cart currentSale={currentSale} />
+          <Cart currentSale={currentSale} setCurrentSale={setCurrentSale} />
         </main>
       </header>
     </div>
